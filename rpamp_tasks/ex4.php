@@ -127,6 +127,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 </div>
-
+<?php $file_path = __FILE__; ?>
 <?php include 'footer.php' ; ?>
 

@@ -38,7 +38,8 @@
               </div>
               <div class="col-auto">
               <?php
-                    $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
+                    $file_path = isset($file_path) ? $file_path : $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
+                   // $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
                     $file_name = basename($file_path);
                     echo '<div class="mb-0">' . $file_name . ' file was last modified: ' . date("F j, Y, g:i a", filemtime($file_path)) . '</div>';
               ?>

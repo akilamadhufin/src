@@ -68,5 +68,5 @@ include 'header.php'; ?>
     </div>
 </body>
 </html>
-
+<?php $file_path = __FILE__; ?>
 <?php include 'footer.php' ; ?>

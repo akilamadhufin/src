@@ -82,6 +82,8 @@ echo "Your browser is: " . $browser;
 <h5>3.8 File Modification Time: Write a PHP script in the footer section of your universal footer to display the last modification time of a file. Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get the last modified time & date function to print the date and time Predefined Variables</h5>
 <br><br>
 </div>
+
+<?php $file_path = __FILE__; ?>
 <?php
 include 'footer.php';
 ?>

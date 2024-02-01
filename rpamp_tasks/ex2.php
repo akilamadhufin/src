@@ -9,5 +9,6 @@ include 'header.php' ;?>
 <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, commodi doloribus sunt, ad est vitae delectus itaque iusto repellat maiores sint tempore architecto minima minus tenetur! Dolor voluptas iste architecto.</p>
 
 </div>
+<?php $file_path = __FILE__; ?>
 <?php include 'footer.php' ; ?>
 

@@ -12,5 +12,6 @@ echo "<h3>Hello $fname $lname, You are welcome to my site.</h3>";
 ?>
 </div>
 
+<?php $file_path = __FILE__; ?>
 <?php
 include 'footer.php' ; ?>
