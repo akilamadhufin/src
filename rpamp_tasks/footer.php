@@ -40,7 +40,7 @@
               <?php
                     $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
                     $file_name = basename($file_path);
-                    echo '<div class="mb-0">' . $file_name . ' file was last modified: ' . date("l, F j, Y h:i:s A", filemtime($file_path)) . '</div>';
+                    echo '<div class="mb-0">' . $file_name . ' file was last modified: ' . date("F j, Y, g:i a", filemtime($file_path)) . '</div>';
               ?>
               </div>
               <div class="col-auto">
