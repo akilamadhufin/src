@@ -1,3 +1,4 @@
+
 <section id="footer" class="bg-cover">
         <div class="footer-top gy-5">
           <div class="container">
@@ -33,7 +34,14 @@
           <div class="container">
             <div class="row justify-content-between gy-3">
               <div class="col-auto">
-                <div class="mb-0">&copy; All Rights Reserved. 24/01/2024</div>
+                <div class="mb-0">&copy; All Rights Reserved.</div>
+              </div>
+              <div class="col-auto">
+              <?php
+                    $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
+                    $file_name = basename($file_path);
+                    echo '<div class="mb-0">' . $file_name . ' file was last modified: ' . date("l, F j, Y h:i:s A", filemtime($file_path)) . '</div>';
+              ?>
               </div>
               <div class="col-auto">
                 <div class="mb-0">Designed By: Team 17</div>

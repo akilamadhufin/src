@@ -1,6 +1,6 @@
 <?php   
-    $title = "EX1" ;
-include 'header.php' ?>
+    $title = "Exercise 1: Getting Started with PHP" ;
+include 'header.php'; ?>
 
 
 <!DOCTYPE html>
@@ -10,12 +10,9 @@ include 'header.php' ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-   
-  
-
 </head>
 <body>
-    
+<div style="padding-left: 20px; padding-top: 20px; padding-bottom: 20px">
  
     <h3> 3.1 Write PHP code to output the following message: 
     Hello world! My name is "David"
@@ -24,6 +21,7 @@ include 'header.php' ?>
     // use blackslash to escape special characters like "
     echo "Hello world! My name is \"David\"";
     ?>
+    <br><br>
 
     <h3> 3.2 Create a PHP variable named $title and assign it the value "PHP is interesting." Then, use this variable as the content within an (heading 4) element.</h3>
     <?php
@@ -32,6 +30,7 @@ include 'header.php' ?>
     echo "<h4>$title</h4>";
 
     ?>
+    <br><br>
 
     <h3> 3.3 Define three variables: $g1 = 5, $g2 = 4, and $g3 = 5. These variables represent the grades of three students in the course. To display this information, create an HTML table within your PHP code. The table should be structured with columns for Serial Number (S.n.), Name, and Grade, and it should look like this:
     </h3>
@@ -42,6 +41,7 @@ include 'header.php' ?>
     $g3=5;
 
     ?>
+    <br><br>
 
     <table>
         <tr><th>S.n.</th> <th>Name</th> <th>Grade</th>
@@ -61,10 +61,11 @@ include 'header.php' ?>
             <td><?php echo $g3 ?></td>
         </tr>
     </table>
+    <br><br>
 
     <h3> 3.4 Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
     <img src="images/Screenshot 2024-01-26 113953.png" alt="web development environment">
-
+    </div>
 </body>
 </html>
 

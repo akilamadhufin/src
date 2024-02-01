@@ -30,19 +30,19 @@
                 <a class="nav-link active"  href="ex2.php">EX2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#menu">Menu</a>
+                <a class="nav-link active"  href="ex3.php">EX3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#services">Services</a>
+                <a class="nav-link active"  href="ex4.php">EX4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#alumni">Alumni</a>
+                <a class="nav-link active"  href="#alumni">EX5</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#reviews">Reviews</a>
+                <a class="nav-link active"  href="#reviews">EX6</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#footer">Contact us</a>
+                <a class="nav-link active"  href="#footer">EX7</a>
               </li>
              
             </ul>
@@ -55,50 +55,4 @@
           </div>
         </div>
       </nav>
-      <div id="heroslider" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item text-center  bg-cover vh-100 active slide-1">
-            <div class="container h-100 d-flex align-items-center justify-content-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h6 class="text-white">Welcome to HOT POT</h6>
-                        <h1 class="display-1 fw-bold text-white">Grilled & Spicy Flavored</h1>
-                        <a href="#menu" class="btn btn-brand">Check Menu</a>
-                    </div>
-                </div>
-            </div>
-
-           
-          </div>
-          <div class="carousel-item text-center  bg-cover vh-100 slide-2">
-            <div class="container h-100 d-flex align-items-center justify-content-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h6 class="text-white">Welcome to HOT POT</h6>
-                        <h1 class="display-1 fw-bold text-white">Fresh & Tasty Food</h1>
-                        <a href="#menu" class="btn btn-brand">Check Menu</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="carousel-item text-center  bg-cover vh-100 slide-3">
-            <div class="container h-100 d-flex align-items-center justify-content-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h6 class="text-white" >Welcome to HOT POT</h6>
-                        <h1 class="display-1 fw-bold text-white">Healthy & Tasty</h1>
-                        <a href="#menu" class="btn btn-brand">Check Menu</a>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroslider" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroslider" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      
