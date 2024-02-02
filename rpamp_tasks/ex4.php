@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["number1"])) {
     }
 }
 ?>
-<h5>4.5 While Loop: Write a PHP script that will print all the numbers from 1 to n. (use form to get user input)</h5>
+<h5>4.5 While Loop: Write a PHP script that will print all the numbers from 1 to n.(use form to get user input)</h5>
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 50vh;">
 <form name="numberPrint" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="text-center">
         <div class="mb-3">
