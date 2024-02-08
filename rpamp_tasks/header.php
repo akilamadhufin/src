@@ -36,13 +36,13 @@
                 <a class="nav-link active"  href="ex4.php">EX4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#alumni">EX5</a>
+                <a class="nav-link active"  href="#">EX5</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active"  href="#reviews">EX6</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#footer">EX7</a>
+                <a class="nav-link active"  href="index.php">EX7</a>
               </li>
              
             </ul>

@@ -1,6 +1,6 @@
 <?php
 $title="Read my data";
-include '../header.php';
+include 'header.php';
 include 'db.php';
 // SQL query to retrieve data from the 'studentsinfo' table
 $sql = "SELECT * FROM studentsinfo";
@@ -42,5 +42,5 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 
-include '../footer.php';
+include 'footer.php';
 ?>

@@ -1,5 +1,6 @@
 <?php
-include '../header.php';
+$title=""
+include 'header.php';
 ?>
 
 <h2>Input Your Information Below:</h2>
@@ -38,6 +39,6 @@ include '../header.php';
 </form>
 
 <?php
-include '../footer.php'
+include 'footer.php'
 
 ?>

@@ -1,4 +1,6 @@
 <?php
+$title="data submit";
+
 // what to do with the data
 
 if(isset($_POST['submit'])){ // without this code anyone can submit empty data to db
