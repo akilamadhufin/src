@@ -1,5 +1,6 @@
 <?php
 $title="data submit";
+include 'Data Submit';
 
 // what to do with the data
 
