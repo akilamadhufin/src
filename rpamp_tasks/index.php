@@ -1,5 +1,5 @@
 <?php
-$title=""
+$title="Data Form";
 include 'header.php';
 ?>
 
