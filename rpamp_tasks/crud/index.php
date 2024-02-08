@@ -1,6 +1,5 @@
 <?php
 include '../header.php';
-
 ?>
 
 <h2>Input Your Information Below:</h2>
